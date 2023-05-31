@@ -1,6 +1,6 @@
 import Game from "./game/game";
-/* eslint-disable */
-addEventListener("DOMContentLoaded", (event) => {
+
+addEventListener("DOMContentLoaded", () => {
   const game = new Game(document.querySelector(".playing-field"));
 
   setInterval(() => {
